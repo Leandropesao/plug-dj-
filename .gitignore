@@ -137,7 +137,7 @@ TFLEnhancedModel = require('app/base/Class').extend({
     $('#playback').css('background-color','transparent');
         $('head').append('<link href="http://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet" type="text/css">'
             + '<style type="text/css" id="TFL-css">'
-            + 'html{background: url("http://i.imgur.com/qhD53EW.jpg") no-repeat scroll center top #000000;}'
+            + 'html{background: url("http://imgur.com/kYodEgq") no-repeat scroll center top #000000;}'
             + '#button-lobby { background-image: url("http://i.imgur.com/brpRaSY.png");}'
             + 'body {color:#66FFFF;}'
             + '#current-dj-value {color:#B0B0B0;}'
@@ -161,18 +161,18 @@ TFLEnhancedModel = require('app/base/Class').extend({
             + '.chat-host {color:#4CFF00;}'
             + '.chat-emote {color:#66FFFF;}'    
             + '.chat-emote .chat-from {color:#66FFFF;}'
-            + '.chat-host {background-image: url("http://i.imgur.com/FIRn1Lp.png");}'
-            + '.chat-cohost {background-image: url("http://i.imgur.com/njajqVG.png");}'
-            + '.chat-manager{background-image: url("http://i.imgur.com/dJa4Svb.png");}'
+            + '.chat-host {background-image: url("http://imgur.com/WUraC6k");}'
+            + '.chat-cohost {background-image: url("http://imgur.com/PEQ8anF");}'
+            + '.chat-manager{background-image: url("http://imgur.com/aZXznu2");}'
             + '.chat-bouncer{background-image: url("http://i.imgur.com/Q3I4vg0.png");}' 
             + '.chat-from-featureddj {background: url("http://i.imgur.com/tlXvCWf.png") no-repeat;}'
             + '.chat-from-featureddj {padding-left:17px;}'
             + '.chat-message .chat-from-featureddj, .chat-mention .chat-from-featureddj {color:#E90E82 !important;}'
             + '.chat-message .chat-from-bouncer, .chat-mention .chat-from-bouncer {color:#E90E82 !important;}'
             + '.chat-message .chat-from-manager, .chat-mention .chat-from-manager {color:#E90E82 !important;}'
-            + '.chat-message .chat-from, .chat-mention .chat-from{background: url("http://i.imgur.com/bJXq2aX.png") no-repeat;}'
+            + '.chat-message .chat-from, .chat-mention .chat-from{background: url("") no-repeat;}'
             + '.chat-message .chat-from, .chat-mention .chat-from {padding-left:17px;}'
-            + '.chat-from-you {background: url("http://i.imgur.com/bJXq2aX.png") no-repeat;}'
+            + '.chat-from-you {background: url("") no-repeat;}'
             + '.chat-from-you {padding-left:17px;}'
             + '.chat-manager {color:#20F92E}'
             + '.chat-message .chat-from-host, .chat-mention .chat-from-host {color:#FF4000 !important;}'
@@ -202,16 +202,16 @@ initPopout : function(){
             styles+= '.chat-emote {color:#FCFF00}';    
             styles+= '.chat-emote .chat-from {color:#FCFF00}';
             styles+= '.chat-emote .chat-text, .chat-system .chat-text {color:FCFF00}';
-            styles+= '.chat-host {background-image: url("http://i.imgur.com/FIRn1Lp.png")}';
-            styles+= '.chat-cohost {background-image: url("http://i.imgur.com/f5VVDSz.png")}';
-            styles+= '.chat-manager {background-image: url("http://i.imgur.com/dJa4Svb.png")}';
+            styles+= '.chat-host {background-image: url("http://imgur.com/WUraC6k")}';
+            styles+= '.chat-cohost {background-image: url("http://imgur.com/PEQ8anF")}';
+            styles+= '.chat-manager {background-image: url("http://imgur.com/aZXznu2")}';
             styles+= '.chat-bouncer{background-image: url("http://i.imgur.com/Q3I4vg0.png")}'; 
             styles+= '.chat-from-featureddj {background: url("http://i.imgur.com/tlXvCWf.png") no-repeat}';
             styles+= '.chat-from-featureddj {padding-left:17px}';
             styles+= '.chat-message .chat-from-featureddj, .chat-mention .chat-from-featureddj {color:#0084FF !important}';
             styles+= '.chat-message .chat-from-bouncer, .chat-mention .chat-from-bouncer {color:#66CDD6 !important}';
             styles+= '.chat-message .chat-from-manager, .chat-mention .chat-from-manager {color:#92FFFF !important}';
-            styles+= '.chat-message .chat-from, .chat-mention .chat-from{background: url("http://i.imgur.com/bJXq2aX.png") no-repeat}';
+            styles+= '.chat-message .chat-from, .chat-mention .chat-from{background: url("") no-repeat}';
             styles+= '.chat-message .chat-from, .chat-mention .chat-from {padding-left:17px}';
             styles+= '.chat-from-you {background: url("http://i.imgur.com/bJXq2aX.png") no-repeat}';
             styles+= '.chat-from-you {padding-left:17px}';
